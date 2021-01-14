@@ -5,11 +5,18 @@
 body{
     background-color: #f4fff4;
 }
+.footer{
+    width:90%;
+}
+
 .header,.container{
     width:100%;
     
     margin:0 auto;
     
+}
+footer .card-bg{
+    height: 1000px;
 }
 .header{
     background-color:#fffbf0;margin-bottom: 50px;
@@ -91,8 +98,11 @@ button img{
 .third-section .single-card{
     box-shadow: 1px 1px 14px -3px #bbb0b0;
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns:65px 1fr;
     border-radius: 10px;
+    background-color: #ffffff;
+    width:70%;
+     
 }
 .footer-part{
     box-shadow: 1px 1px 14px -3px #bbb0b0;
@@ -104,60 +114,25 @@ button img{
     .third-section {
         flex-direction: column-reverse;
     }
-    .third-section .card-body{
-        width:250px;
-        background-color: #ffffff;
-       
-        
-    }
+  
     .third-section .single-card{
         margin:0 auto;
         display: grid;
-        
-    }
-}
- .footer{
-    width:100%;
-    margin:50px 0;
-    background-color: darkorchid;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    border-radius: 5px;
-    width: 100%;
-     
-    
-    
-}
-.footer .articles article{
-    
-}
-.footer .image{
-    margin-left: 20%;
-}
-@media (max-width:770px){
-    .footer{
-        
-        margin:0 auto;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        
-    }
-    .footer .articles{
-        width:90%;
-        margin:0 auto;
-        margin-left:-20px;
          
+         
+        
+        
+        
     }
-    footer .articles .article{
-        width: 31%;
-       margin-right: -5px;
+    .third-section .single-card img{
+        margin-left: 100px;
     }
-    .footer-part{
-        background-color:rgb(163, 24, 233);
-        font-size: 15px;
-    }
-}
-.footer-part{
-    color:gainsboro;
     
+}
+.third-section{
+    width:90%;
+}
+
+.margin-bottom{
+    margin:20px 0;
 }
